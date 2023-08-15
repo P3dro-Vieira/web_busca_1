@@ -10,7 +10,7 @@ driver.get('https://www.google.com.br/')
 time.sleep(1)
 
 # DIGITANDO NO CAMPO DE BUSCA E CLICANDO EM BUSCAR
-driver.find_element(By.XPATH, '//*[@id="APjFqb"]').send_keys('silent hill ps1 playthrough')
+driver.find_element(By.XPATH, '//*[@id="APjFqb"]').send_keys('metal gear 3 remake')
 time.sleep(1)
 driver.find_element(By.XPATH, '//*[@id="APjFqb"]').send_keys(Keys.ENTER)
 time.sleep(10)
